@@ -63,35 +63,22 @@ section.container {
                     background-color: lightblue;
                 }
             }
-            tr:hover {
-                background-color: #ffa;
-            }
-
-            td, th {
-                position: relative;
-            }
-            td:hover::after,
-            th:hover::after {
-                content: "";
-                position: absolute;
-                background-color: #ffa;
-                left: 0;
-                top: -5000px;
-                height: 10000px;
-                width: 100%;
-                z-index: -1;
-            }
         }
 
         tr:hover {
             background-color: yellow;
         }
     }
-}
 
-.flex-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    flex-wrap: wrap;
+    .cell {
+        border: 1px solid black;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .table {
+        border: 1px solid black;
+        display: flex;
+        flex-direction: row;
+    }
 }
