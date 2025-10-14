@@ -3,37 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <title>Multiplication Table</title>
-    <link rel="stylesheet" type="text/css" href="stylesheet.css">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="stylesheet.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-
 <section class="container">
-    <h1>Multiplication Table Project &#128514;</h1>
-    <h2>你好，世界</h2>
-    <h3>Create your own multiplication table that is rendered with an HTML table!</h3>
+    <h1>Multiplication Table Project</h1>
 
     <div class="generate-box">
         <div class="inputs">
-            <label for="rows" class="rows">Rows:
-                <input id="rows" type="number" value="10" placeholder="How many rows?"/>
+            <label>Rows:
+                <input id="rows" type="number" value="10" />
             </label>
-
-            <label for="cols">Columns:
-                <input id="cols" type="number" value="10" placeholder="How many cols?"/>
+            <label>Columns:
+                <input id="cols" type="number" value="10" />
             </label>
-
-            <label for="highlight">Highlight:
-                <input id="highlight" type="number" placeholder="Highlight row & col??"/>
+            <label>Highlight:
+                <input id="highlight" type="number" placeholder="Row & column to highlight" />
             </label>
         </div>
 
-        <button id="generate" class='myBtn' onclick="createWithHtmlTable(getInputValueAsNumber('rows'), getInputValueAsNumber('cols'), getInputValueAsNumber('highlight'))">Generate TABLE!</button>
+        <button id="generate" class="myBtn"
+                onclick="createWithHtmlTable(getInputValueAsNumber('rows'), getInputValueAsNumber('cols'), getInputValueAsNumber('highlight'))">
+            Generate TABLE!
+        </button>
     </div>
 
     <section id="output"></section>
 </section>
 
-</body>
 <script src="javascript.js"></script>
+</body>
 </html>
