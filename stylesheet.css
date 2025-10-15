@@ -10,6 +10,7 @@ section.container {
     align-items: center;
     gap: 10px;
 
+
     .generate-box {
         display: flex;
         gap: 10px;

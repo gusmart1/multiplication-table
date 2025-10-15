@@ -6,6 +6,7 @@ function getInputValueAsNumber(inputID) {
 function createWithHtmlTable(rows, cols, highlight) {
     let string = "<div class='table'>\n";
 
+
     for (let row = 1; row <= rows; row++) {
         string += "<div class='row'>\n";
         for (let col = 1; col <= cols; col++) {
