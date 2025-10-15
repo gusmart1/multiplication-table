@@ -92,18 +92,6 @@ section.container {
                 background-color: yellow;
 
             }
-
-            td:hover::after,
-            th:hover::after {
-                content: "";
-                position: absolute;
-                background-color: #ffa;
-                left: 0;
-                top: -5000px;
-                height: 10000px;
-                width: 100%;
-                z-index: -1;
-            }
         }
     }
 }
