@@ -18,6 +18,9 @@ function createWithHtmlTable(rows, cols, highlight) {
         string += "</div>\n";
     }
 
+
     string += "</div>\n";
     document.querySelector("section.container > section#output").innerHTML = string;
 }
+
+

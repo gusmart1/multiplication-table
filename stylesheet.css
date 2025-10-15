@@ -4,6 +4,7 @@ section.container {
     margin: 0 auto;
     border: 1px solid black;
     font-family: Avenir, Helvetica, Arial, sans-serif;
+
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -16,64 +17,93 @@ section.container {
         .inputs {
             display: flex;
             flex-direction: column;
-            gap: 10px;
+            gap: 5px;
 
             label {
                 display: flex;
-                gap: 10px;
                 justify-content: space-between;
+                gap: 10px;
             }
         }
 
-        button.myBtn {
+        button#generate.myBtn {
             background-color: pink;
         }
     }
 
     #output {
-        overflow: scroll;
+        overflow: auto;
         max-width: 90vw;
         max-height: 60vh;
-        display: block;
+
 
         .table {
             display: flex;
             flex-direction: column;
-            width: max-content;
-            border-collapse: collapse;
+            border: 1px solid black;
+        }
+
+        .row {
+            display: flex;
+            flex-direction: row;
+            &:first-child, &:last-child {
+                background-color: lightblue;
+                .cell { background-color: lightblue; }
+                }
+
+            &:hover {
+                background-color: yellow;
+            }
+        }
+        .col {
+            display: flex;
+            flex-direction: row;
+            &:first-child, &:last-child {
+                background-color: lightblue;
+                .cell { background-color: lightblue; }
+            }
+
+            &:hover {
+                background-color: yellow;
+            }
+        }
+
+
+        .cell {
+            width: 2vw;
+            height: 2vw;
+            border: 1px solid black;
+            padding: 5px;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+
+            &:first-of-type,
+            &:last-of-type {
+                background-color: lightblue;
+            }
+
+            &.highlight {
+                background-color: darkred;
+                color: white;
+            }
+
+            &:hover {
+                background-color: yellow;
+
+            }
+
+            td:hover::after,
+            th:hover::after {
+                content: "";
+                position: absolute;
+                background-color: #ffa;
+                left: 0;
+                top: -5000px;
+                height: 10000px;
+                width: 100%;
+                z-index: -1;
+            }
         }
     }
-
-    .row {
-        display: flex;
-    }
-
-    .cell {
-        flex: 1;
-        border: 1px solid black;
-        text-align: center;
-        padding: 4px;
-    }
-
-    .cell.highlight {
-        background-color: darkred;
-        color: white;
-    }
-
-    .row:hover .cell {
-        background-color: yellow;
-    }
-
-    .column:hover .cell {
-        background-color: yellow;
-    }
-
 }
-
-
-
-
-
-
-
-
