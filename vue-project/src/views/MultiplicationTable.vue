@@ -27,6 +27,11 @@ let name = ref(null)
       <input type="number" id="cols" v-model.number="cols"/>
     </label>
 
+    <label id="shouldCalculate">
+      <span>Do you want to see the calculated values?</span>
+      <input type="checkbox" id="shouldCalculate" />
+    </label>
+
     <p>Hi there {{ name }}, lets build our table </p>
 
     <p v-if="name">HI there</p>
