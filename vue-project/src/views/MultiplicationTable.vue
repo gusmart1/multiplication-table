@@ -43,7 +43,7 @@ let name = ref(null)
     <table>
       <tr v-for="row in rows" :key="row">
        <td v-for="col in cols" :key="col">
-       {{ row * col}}
+     <template v-if="should"  {{ row * col}}
        </td>
         I'm on row {{ row }}</tr>
     </table>
