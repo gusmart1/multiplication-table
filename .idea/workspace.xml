@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b4b24194-00e4-4153-a44c-b1f883b62414" name="Changes" comment="starting vue stuff">
+      <change beforePath="$PROJECT_DIR$/vue-project/src/views/MultiplicationTable.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue-project/src/views/MultiplicationTable.vue" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+        <option value="Vue Composition API Component" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="main" />
+        <entry key="$PROJECT_DIR$" value="using-flex-table-troubleshooting" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="SYNC" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;gusmart1&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/gusmart1/multiplication-table.git&quot;,
+    &quot;accountId&quot;: &quot;0530bf7d-1c2d-4447-80a0-9bd7fd66eb27&quot;
+  }
+}</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/stylesheet.css" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="33hu8tkMMNYccdD0TetoIM1P9gq" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "JavaScript Debug.index.html.executor": "Run",
+    "JavaScript Debug.localhost:5173.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Node.js.index.js.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "using-vue3-in-class",
+    "junie.onboarding.icon.badge.shown": "true",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "to.speed.mode.migration.done": "true",
+    "ts.external.directory.path": "/Applications/WebStorm.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "vue.recent.templates": [
+      "Vue Composition API Component"
+    ]
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="localhost:5173" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:5173/">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.localhost:5173" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-b598e85cdad2-JavaScript-WS-252.25557.126" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b4b24194-00e4-4153-a44c-b1f883b62414" name="Changes" comment="" />
+      <created>1759781468830</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1759781468830</updated>
+      <workItem from="1759781469885" duration="4867000" />
+      <workItem from="1759954759247" duration="2951000" />
+      <workItem from="1759957775273" duration="2424000" />
+      <workItem from="1760372773310" duration="1851000" />
+      <workItem from="1760374660226" duration="406000" />
+      <workItem from="1760376296091" duration="27319000" />
+      <workItem from="1760991016487" duration="7005000" />
+      <workItem from="1761162906424" duration="1564000" />
+    </task>
+    <task id="LOCAL-00001" summary="Up to where Nikolai is">
+      <option name="closed" value="true" />
+      <created>1759781934220</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1759781934220</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Up to where Nikolai is">
+      <option name="closed" value="true" />
+      <created>1759783444789</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1759783444789</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Up to where Nikolai is">
+      <option name="closed" value="true" />
+      <created>1759784402682</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1759784402682</updated>
+    </task>
+    <task id="LOCAL-00004" summary="help">
+      <option name="closed" value="true" />
+      <created>1759955919119</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1759955919119</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Added README.md">
+      <option name="closed" value="true" />
+      <created>1759957342469</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1759957342469</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Committed multiplication project files">
+      <option name="closed" value="true" />
+      <created>1759957671799</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1759957671799</updated>
+    </task>
+    <task id="LOCAL-00007" summary="vcs file updated">
+      <option name="closed" value="true" />
+      <created>1759957834636</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1759957834636</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Flex box starting">
+      <option name="closed" value="true" />
+      <created>1759959204850</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1759959204850</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Flex box starting">
+      <option name="closed" value="true" />
+      <created>1760372837440</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1760372837441</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Flex box starting">
+      <option name="closed" value="true" />
+      <created>1760373256065</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1760373256065</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Flex box starting">
+      <option name="closed" value="true" />
+      <created>1760373382007</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1760373382007</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Flex box starting">
+      <option name="closed" value="true" />
+      <created>1760373531319</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1760373531319</updated>
+    </task>
+    <task id="LOCAL-00013" summary="got rid of dix">
+      <option name="closed" value="true" />
+      <created>1760374712747</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1760374712747</updated>
+    </task>
+    <task id="LOCAL-00014" summary="got rid of dix">
+      <option name="closed" value="true" />
+      <created>1760374744736</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1760374744736</updated>
+    </task>
+    <task id="LOCAL-00015" summary="got rid of div">
+      <option name="closed" value="true" />
+      <created>1760374825112</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1760374825112</updated>
+    </task>
+    <task id="LOCAL-00016" summary="works in flex">
+      <option name="closed" value="true" />
+      <created>1760384636356</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1760384636356</updated>
+    </task>
+    <task id="LOCAL-00017" summary="works in flex">
+      <option name="closed" value="true" />
+      <created>1760384640560</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1760384640560</updated>
+    </task>
+    <task id="LOCAL-00018" summary="works in flex, but no highlight or hover">
+      <option name="closed" value="true" />
+      <created>1760387779358</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1760387779358</updated>
+    </task>
+    <task id="LOCAL-00019" summary="works in flex, but no highlight or hover">
+      <option name="closed" value="true" />
+      <created>1760388838086</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1760388838086</updated>
+    </task>
+    <task id="LOCAL-00020" summary="flex working but hover only works in the row and the grid isnt even">
+      <option name="closed" value="true" />
+      <created>1760455538178</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1760455538178</updated>
+    </task>
+    <task id="LOCAL-00021" summary="flex working but hover only works in the row">
+      <option name="closed" value="true" />
+      <created>1760546558527</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1760546558527</updated>
+    </task>
+    <task id="LOCAL-00022" summary="flex working but hover only works in the row">
+      <option name="closed" value="true" />
+      <created>1760556307300</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1760556307300</updated>
+    </task>
+    <task id="LOCAL-00023" summary="flex working but hover only works in the row">
+      <option name="closed" value="true" />
+      <created>1760556982544</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1760556982544</updated>
+    </task>
+    <task id="LOCAL-00024" summary="changed wording">
+      <option name="closed" value="true" />
+      <created>1760557703969</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1760557703969</updated>
+    </task>
+    <task id="LOCAL-00025" summary="starting vue stuff">
+      <option name="closed" value="true" />
+      <created>1760997264376</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1760997264377</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/../../.." />
+      <path value="$PROJECT_DIR$/.." />
+    </ignored-roots>
+    <MESSAGE value="Up to where Nikolai is" />
+    <MESSAGE value="help" />
+    <MESSAGE value="Added README.md" />
+    <MESSAGE value="Committed multiplication project files" />
+    <MESSAGE value="vcs file updated" />
+    <MESSAGE value="Flex box starting" />
+    <MESSAGE value="got rid of dix" />
+    <MESSAGE value="got rid of div" />
+    <MESSAGE value="works in flex" />
+    <MESSAGE value="works in flex, but no highlight or hover" />
+    <MESSAGE value="flex working but hover only works in the row and the grid isnt even" />
+    <MESSAGE value="flex working but hover only works in the row" />
+    <MESSAGE value="changed wording" />
+    <MESSAGE value="starting vue stuff" />
+    <option name="LAST_COMMIT_MESSAGE" value="starting vue stuff" />
+  </component>
+</project>

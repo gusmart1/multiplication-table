@@ -14,7 +14,7 @@ let name = ref(null)
   <div class="inputs">
     <label id="name">
       <span>What's your name:</span>
-      <input  id="name" v-model="names"/>
+      <input  id="name" v-model="name"/>
     </label>
 
     <label id="rows">
