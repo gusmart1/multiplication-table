@@ -35,6 +35,14 @@ let name = ref(null)
     <p>How many  {{ rows }}</p>
     <p>How many  {{ cols }}</p>
 
+    <table>
+      <tr v-for="row in rows" :key="row">
+       <td v-for="col in cols" :key="col">
+       {{ row * col}}
+       </td>
+        I'm on row {{ row }}</tr>
+    </table>
+
   </div>
 </template>
 
