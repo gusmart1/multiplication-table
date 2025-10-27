@@ -4,8 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4b24194-00e4-4153-a44c-b1f883b62414" name="Changes" comment="its so over again">
+    <list default="true" id="b4b24194-00e4-4153-a44c-b1f883b62414" name="Changes" comment="WE ARE SO BACK">
+      <change afterPath="$PROJECT_DIR$/vue-project/src/views/MultiplicationTable2.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-project/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue-project/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-project/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue-project/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-project/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue-project/src/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-project/src/views/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue-project/src/views/Home.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vue-project/src/views/MultiplicationTable.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue-project/src/views/MultiplicationTable.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,35 +64,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.localhost:5173.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Node.js.index.js.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;using-vue3-in-class&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;settings.nodejs&quot;,
-    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/Applications/WebStorm.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "JavaScript Debug.index.html.executor": "Run",
+    "JavaScript Debug.localhost:5173.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Node.js.index.js.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "using-vue3-in-class",
+    "junie.onboarding.icon.badge.shown": "true",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "prettierjs.PrettierConfiguration.Package": "/Users/gmartinson/Desktop/School Stuff/Advanced Web Design/Mult Table/vue-project/node_modules/prettier",
+    "settings.editor.selected.configurable": "settings.nodejs",
+    "to.speed.mode.migration.done": "true",
+    "ts.external.directory.path": "/Applications/WebStorm.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;vue.recent.templates&quot;: [
-      &quot;Vue Composition API Component&quot;
+  "keyToStringList": {
+    "vue.recent.templates": [
+      "Vue Composition API Component"
     ]
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="localhost:5173" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:5173/">
       <method v="2" />
@@ -121,7 +127,8 @@
       <workItem from="1760991016487" duration="7005000" />
       <workItem from="1761162906424" duration="4404000" />
       <workItem from="1761167816116" duration="1586000" />
-      <workItem from="1761169497256" duration="374000" />
+      <workItem from="1761169497256" duration="837000" />
+      <workItem from="1761580157639" duration="306000" />
     </task>
     <task id="LOCAL-00001" summary="Up to where Nikolai is">
       <option name="closed" value="true" />
@@ -347,7 +354,15 @@
       <option name="project" value="LOCAL" />
       <updated>1761169387010</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="WE ARE SO BACK">
+      <option name="closed" value="true" />
+      <created>1761170003272</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1761170003272</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -385,6 +400,7 @@
     <MESSAGE value="starting vue stuff" />
     <MESSAGE value="its so over" />
     <MESSAGE value="its so over again" />
-    <option name="LAST_COMMIT_MESSAGE" value="its so over again" />
+    <MESSAGE value="WE ARE SO BACK" />
+    <option name="LAST_COMMIT_MESSAGE" value="WE ARE SO BACK" />
   </component>
 </project>

@@ -1,70 +1,82 @@
-<script setup lang="ts">
-
-
-import { ref } from 'vue'
-
-let rows = ref(10)
-let cols = ref(10)
-let name = ref(null)
-</script>
-
 <template>
-  <h1>Enter a value:</h1>
-
-  <div class="inputs">
-    <label id="name">
-      <span>What's your name:</span>
-      <input  id="name" v-model="name"/>
-    </label>
-
-    <label id="rows">
-      <span>Rows:</span>
-      <input type="number" id="rows" v-model.number="rows"/>
-    </label>
-
-    <label id="cols">
-      <span>Cols:</span>
-      <input type="number" id="cols" v-model.number="cols"/>
-    </label>
-
-    <label id="shouldCalculate">
-      <span>Do you want to see the calculated values?</span>
-      <input type="checkbox" id="shouldCalculate" />
-    </label>
-
-    <p>Hi there {{ name }}, lets build our table </p>
-
-    <p v-if="name">HI there</p>
-    <p v-else>Hi there {{ name }}, lets build our table: </p>
-
-    <p>How many  {{ rows }}</p>
-    <p>How many  {{ cols }}</p>
+  <section class="container">
+    <div class="generate-box">
+      <div>
+        <label>
+          Rows
+          <input type="number" min="1" max="30" v-model.number="rows"/>
+        </label>
+        <label>
+          Columns
+          <input type="number" min="1" max="30" v-model.number="cols"/>
+        </label>
+      </div>
+      <div>
+        <label>
+          Highlight row and col?
+          <input type="number" min="1" :max="highlightMax" v-model.number="highlight"/>
+        </label>
+      </div>
+      <div>
+        <label>
+          <input type="checkbox" v-model="showHeader"/> Show headers
+        </label>
+        <label>
+          <input type="checkbox" v-model="showProducts"/> Show products (row × col)
+        </label>
+      </div>
+    </div>
 
     <table>
-      <tr v-for="row in rows" :key="row">
-       <td v-for="col in cols" :key="col">
-     <template v-if="should"  {{ row * col}}
-       </td>
-        I'm on row {{ row }}</tr>
+      <thead v-if="showHeader">
+      <tr>
+        <th>×</th>
+        <th v-for="col in cols" :key="'header' + col" :class="{ 'highlighted' : col === highlight}">
+          {{ col }}
+        </th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr v-for="row in rows" :class="{ 'highlighted' : row === highlight }" :key="row">
+        <th v-if="showHeader">{{ row }}</th>
+        <td v-for="col in cols" :key="row+'-'+col" :class="{ 'highlighted' : col === highlight }">
+          <template v-if="showProducts">{{ row * col }}</template>
+          <template v-else>{{ row }} × {{ col }}</template>
+        </td>
+      </tr>
+      </tbody>
     </table>
-
-  </div>
+  </section>
 </template>
 
-<style scoped>
-div.inputs {
-  border: 1px solid black;
-  width: 50%;
-  margin: 8px;
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
+<script setup>
+import {computed, ref} from 'vue'
 
-  label {
-    padding: 10px;
-    border: 1px solid black;
+const rows = ref(10)
+const cols = ref(10)
+const highlight = ref(null)
+const showHeader = ref(true)
+const showProducts = ref(true)
+const highlightMax = computed(() => Math.min(rows.value, cols.value));
+</script>
+
+<style scoped>
+section.container {
+  div.generate-box {
+    margin: 0 auto;
+    width: fit-content;
     display: flex;
-    gap: 15px;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  table {
+    margin: 30px auto 0;
+
+    .highlighted {
+      color: #fff;
+      background-color: red;
+    }
   }
 }
 </style>

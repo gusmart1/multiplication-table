@@ -1,24 +1,27 @@
-<script setup>
-</script>
-
 <template>
-  <header>
-  <h1>Welcome!</h1>
+  <section class="web-app-container">
 
- <nav>
-  <router-link to="/">Home</router-link> |
-  <router-link to="/multiplication-table">Multiplication Table</router-link>
- </nav>
-  </header>
+    <header>
+      <h1>Multiplication Table Project</h1>
+      <h3>Create your own multiplication table that is rendered with an HTML table!</h3>
 
-  <section class="page-content">
-    <router-view></router-view>\
+      <nav>
+        <router-link :to="{ name: 'Home' }">Go to home</router-link>
+        <router-link :to="{ name: 'AboutMe' }">About me</router-link>
+        <router-link :to="{ name: 'MultiplicationTable' } ">Multiplication Table</router-link>
+      </nav>
 
+    </header>
+
+    <section class="page-content">
+      <router-view/>
+    </section>
+
+    <footer>
+      <p>Created by Nik in 2025</P>
+    </footer>
   </section>
-
-  <router-view />
 </template>
-
 
 <style scoped>
 section.web-app-container {
@@ -26,9 +29,37 @@ section.web-app-container {
   border: 1px solid black;
   margin: 0 auto;
 
-    section.page-content {
-      background-color: lightgray;
-    }
-}
+  header {
+    nav {
+      display: flex;
+      gap: 15px;
+      justify-content: center;
+      /* code here would apply to the contents of nav (like the links) */
 
+      a {
+        text-decoration: none;
+
+        &.router-link-active {
+          font-weight: bold;
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+
+  section.page-content {
+    margin: 10px 0;
+    background-color: lightgray;
+    padding: 20px;
+  }
+
+  footer {
+    p {
+      text-align: center;
+    }
+  }
+}
 </style>
+<script setup lang="ts">
+import MultiplicationTable from "@/views/MultiplicationTable.vue";
+</script>
